@@ -42,7 +42,7 @@ StallGen_s3 = 10;  % If there is no improvement after StallGen_s3, then the ga s
 Generations_s3 = 30;   % Total number of generations for s3
 
 % Mutation function
-ga_options.MutationFcn = {@mutationPower_Pau, mutPower};
+ga_options.MutationFcn = {@mutationPower_Paul, mutPower};
 
 % Alternative mutation function:
 % rate = 0.2
