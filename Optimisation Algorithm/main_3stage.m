@@ -30,7 +30,7 @@ Elite_s2 = 3;      % Elite count s2
 Cross_s2 = 0.3;    % Crossover fraction s2
 mutPower = 10;      % Mutation power for both s2 and s3 (this determines how much each element of the DNA with be mutated). The larger the power, the less the mutation.
 tourn_size1 = 8;    % Tournament size s2
-Generations_s2 = 10; % This should be small as this stage takes yonks due to the large pop
+Generations_s2 = 10; % This should be small, e.g. 5-20
 Trunc_s2 = 80;
 
 % Options for the genetic algorithm in stage 3
